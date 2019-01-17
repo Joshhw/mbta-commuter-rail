@@ -1,6 +1,9 @@
 # MBTA Commuter Rail schedule board
 This was a sample test utilizing the MBTA's new APIv3. The goal was to show North and South Station departures throughout the day.
 
+## Prerequisites
+in order to run this program you must have angular cli installed locally. The command `npm install -g @angular/cli` will get you there. 
+
 ## How to run locally
 1. Run npm install
 2. Run `ng serve -o` for a local dev build. This will also open your browser and load the website which lives at http:localhost:4200
