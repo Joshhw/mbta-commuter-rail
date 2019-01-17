@@ -1,0 +1,410 @@
+{    
+    "body":{
+        "data": [
+            {
+                "attributes": {
+                    "arrival_time": null,
+                    "departure_time": "2019-01-13T10:45:00-05:00",
+                    "direction_id": 0,
+                    "schedule_relationship": null,
+                    "status": "On time",
+                    "stop_sequence": 1
+                },
+                "id": "prediction-CR-Sunday-Fall-18-2403-North Station-1",
+                "relationships": {
+                    "route": {
+                        "data": {
+                            "id": "CR-Fitchburg",
+                            "type": "route"
+                        }
+                    },
+                    "stop": {
+                        "data": {
+                            "id": "North Station",
+                            "type": "stop"
+                        }
+                    },
+                    "trip": {
+                        "data": {
+                            "id": "CR-Sunday-Fall-18-2403",
+                            "type": "trip"
+                        }
+                    }
+                },
+                "type": "prediction"
+            },
+            {
+                "attributes": {
+                    "arrival_time": null,
+                    "departure_time": "2019-01-13T10:00:00-05:00",
+                    "direction_id": 0,
+                    "schedule_relationship": null,
+                    "status": "On time",
+                    "stop_sequence": 1
+                },
+                "id": "prediction-CR-Sunday-Fall-18-2303-North Station-1",
+                "relationships": {
+                    "route": {
+                        "data": {
+                            "id": "CR-Lowell",
+                            "type": "route"
+                        }
+                    },
+                    "stop": {
+                        "data": {
+                            "id": "North Station",
+                            "type": "stop"
+                        }
+                    },
+                    "trip": {
+                        "data": {
+                            "id": "CR-Sunday-Fall-18-2303",
+                            "type": "trip"
+                        }
+                    }
+                },
+                "type": "prediction"
+            },
+            {
+                "attributes": {
+                    "arrival_time": null,
+                    "departure_time": "2019-01-13T11:30:00-05:00",
+                    "direction_id": 0,
+                    "schedule_relationship": null,
+                    "status": "On time",
+                    "stop_sequence": 1
+                },
+                "id": "prediction-CR-Sunday-Fall-18-2153-North Station-1",
+                "relationships": {
+                    "route": {
+                        "data": {
+                            "id": "CR-Newburyport",
+                            "type": "route"
+                        }
+                    },
+                    "stop": {
+                        "data": {
+                            "id": "North Station",
+                            "type": "stop"
+                        }
+                    },
+                    "trip": {
+                        "data": {
+                            "id": "CR-Sunday-Fall-18-2153",
+                            "type": "trip"
+                        }
+                    }
+                },
+                "type": "prediction"
+            },
+            {
+                "attributes": {
+                    "arrival_time": null,
+                    "departure_time": "2019-01-13T10:20:00-05:00",
+                    "direction_id": 0,
+                    "schedule_relationship": null,
+                    "status": "On time",
+                    "stop_sequence": 1
+                },
+                "id": "prediction-CR-Sunday-Fall-18-2103-North Station-1",
+                "relationships": {
+                    "route": {
+                        "data": {
+                            "id": "CR-Newburyport",
+                            "type": "route"
+                        }
+                    },
+                    "stop": {
+                        "data": {
+                            "id": "North Station",
+                            "type": "stop"
+                        }
+                    },
+                    "trip": {
+                        "data": {
+                            "id": "CR-Sunday-Fall-18-2103",
+                            "type": "trip"
+                        }
+                    }
+                },
+                "type": "prediction"
+            }
+        ],
+        "included": [
+            {
+                "attributes": {
+                    "color": "80276C",
+                    "description": "Commuter Rail",
+                    "direction_destinations": [
+                        "Wachusett",
+                        "North Station"
+                    ],
+                    "direction_names": [
+                        "Outbound",
+                        "Inbound"
+                    ],
+                    "fare_class": "Commuter Rail",
+                    "long_name": "Fitchburg Line",
+                    "short_name": "",
+                    "sort_order": 52,
+                    "text_color": "FFFFFF",
+                    "type": 2
+                },
+                "id": "CR-Fitchburg",
+                "links": {
+                    "self": "/routes/CR-Fitchburg"
+                },
+                "relationships": {
+                    "line": {
+                        "data": {
+                            "id": "line-Fitchburg",
+                            "type": "line"
+                        }
+                    }
+                },
+                "type": "route"
+            },
+            {
+                "attributes": {
+                    "color": "80276C",
+                    "description": "Commuter Rail",
+                    "direction_destinations": [
+                        "Lowell",
+                        "North Station"
+                    ],
+                    "direction_names": [
+                        "Outbound",
+                        "Inbound"
+                    ],
+                    "fare_class": "Commuter Rail",
+                    "long_name": "Lowell Line",
+                    "short_name": "",
+                    "sort_order": 58,
+                    "text_color": "FFFFFF",
+                    "type": 2
+                },
+                "id": "CR-Lowell",
+                "links": {
+                    "self": "/routes/CR-Lowell"
+                },
+                "relationships": {
+                    "line": {
+                        "data": {
+                            "id": "line-Lowell",
+                            "type": "line"
+                        }
+                    }
+                },
+                "type": "route"
+            },
+            {
+                "attributes": {
+                    "color": "80276C",
+                    "description": "Commuter Rail",
+                    "direction_destinations": [
+                        "Newburyport or Rockport",
+                        "North Station"
+                    ],
+                    "direction_names": [
+                        "Outbound",
+                        "Inbound"
+                    ],
+                    "fare_class": "Commuter Rail",
+                    "long_name": "Newburyport/Rockport Line",
+                    "short_name": "",
+                    "sort_order": 61,
+                    "text_color": "FFFFFF",
+                    "type": 2
+                },
+                "id": "CR-Newburyport",
+                "links": {
+                    "self": "/routes/CR-Newburyport"
+                },
+                "relationships": {
+                    "line": {
+                        "data": {
+                            "id": "line-Newburyport",
+                            "type": "line"
+                        }
+                    }
+                },
+                "type": "route"
+            },
+            {
+                "attributes": {
+                    "bikes_allowed": 1,
+                    "block_id": "",
+                    "direction_id": 0,
+                    "headsign": "Rockport",
+                    "name": "2103",
+                    "wheelchair_accessible": 1
+                },
+                "id": "CR-Sunday-Fall-18-2103",
+                "links": {
+                    "self": "/trips/CR-Sunday-Fall-18-2103"
+                },
+                "relationships": {
+                    "route": {
+                        "data": {
+                            "id": "CR-Newburyport",
+                            "type": "route"
+                        }
+                    },
+                    "service": {
+                        "data": {
+                            "id": "CR-Sunday-Newburyport-Fall-18",
+                            "type": "service"
+                        }
+                    },
+                    "shape": {
+                        "data": {
+                            "id": "9810007",
+                            "type": "shape"
+                        }
+                    }
+                },
+                "type": "trip"
+            },
+            {
+                "attributes": {
+                    "bikes_allowed": 1,
+                    "block_id": "",
+                    "direction_id": 0,
+                    "headsign": "Newburyport",
+                    "name": "2153",
+                    "wheelchair_accessible": 1
+                },
+                "id": "CR-Sunday-Fall-18-2153",
+                "links": {
+                    "self": "/trips/CR-Sunday-Fall-18-2153"
+                },
+                "relationships": {
+                    "route": {
+                        "data": {
+                            "id": "CR-Newburyport",
+                            "type": "route"
+                        }
+                    },
+                    "service": {
+                        "data": {
+                            "id": "CR-Sunday-Newburyport-Fall-18",
+                            "type": "service"
+                        }
+                    },
+                    "shape": {
+                        "data": {
+                            "id": "9810002",
+                            "type": "shape"
+                        }
+                    }
+                },
+                "type": "trip"
+            },
+            {
+                "attributes": {
+                    "bikes_allowed": 1,
+                    "block_id": "",
+                    "direction_id": 0,
+                    "headsign": "Lowell",
+                    "name": "2303",
+                    "wheelchair_accessible": 1
+                },
+                "id": "CR-Sunday-Fall-18-2303",
+                "links": {
+                    "self": "/trips/CR-Sunday-Fall-18-2303"
+                },
+                "relationships": {
+                    "route": {
+                        "data": {
+                            "id": "CR-Lowell",
+                            "type": "route"
+                        }
+                    },
+                    "service": {
+                        "data": {
+                            "id": "CR-Sunday-Lowell-Fall-18",
+                            "type": "service"
+                        }
+                    },
+                    "shape": {
+                        "data": {
+                            "id": "9830006",
+                            "type": "shape"
+                        }
+                    }
+                },
+                "type": "trip"
+            },
+            {
+                "attributes": {
+                    "bikes_allowed": 1,
+                    "block_id": "",
+                    "direction_id": 0,
+                    "headsign": "Wachusett",
+                    "name": "2403",
+                    "wheelchair_accessible": 1
+                },
+                "id": "CR-Sunday-Fall-18-2403",
+                "links": {
+                    "self": "/trips/CR-Sunday-Fall-18-2403"
+                },
+                "relationships": {
+                    "route": {
+                        "data": {
+                            "id": "CR-Fitchburg",
+                            "type": "route"
+                        }
+                    },
+                    "service": {
+                        "data": {
+                            "id": "CR-Sunday-Fitchburg-Fall-18",
+                            "type": "service"
+                        }
+                    },
+                    "shape": {
+                        "data": {
+                            "id": "9840004",
+                            "type": "shape"
+                        }
+                    }
+                },
+                "type": "trip"
+            },
+            {
+                "attributes": {
+                    "address": null,
+                    "description": "North Station - Commuter Rail",
+                    "latitude": 42.366417,
+                    "location_type": 0,
+                    "longitude": -71.062326,
+                    "name": "North Station",
+                    "platform_code": null,
+                    "platform_name": "Commuter Rail",
+                    "wheelchair_boarding": 1
+                },
+                "id": "North Station",
+                "links": {
+                    "self": "/stops/North%20Station"
+                },
+                "relationships": {
+                    "child_stops": {},
+                    "facilities": {
+                        "links": {
+                            "related": "/facilities/?filter[stop]=North%20Station"
+                        }
+                    },
+                    "parent_station": {
+                        "data": {
+                            "id": "place-north",
+                            "type": "stop"
+                        }
+                    }
+                },
+                "type": "stop"
+            }
+        ],
+        "jsonapi": {
+            "version": "1.0"
+        }
+    }
+}

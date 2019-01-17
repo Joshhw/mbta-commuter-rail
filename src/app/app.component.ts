@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TransitComponent } from './transit/transit.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngtable';
+  title = 'Commuter rail schedule';
 }
