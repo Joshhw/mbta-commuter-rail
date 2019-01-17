@@ -1,4 +1,5 @@
 # MBTA Commuter Rail schedule board
+To see a live version: https://joshhw.github.io/mbta-commuter-rail/
 This was a sample test utilizing the MBTA's new APIv3 with Angular 6. The goal was to show North and South Station departures throughout the day.
 
 ## Prerequisites
