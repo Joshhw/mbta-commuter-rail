@@ -11,7 +11,7 @@
     </tr>
   </thead>
   <tbody *ngFor="let rd of northStationData; let i = index;">
-    <tr *ngIf="i<10">
+    <tr *ngIf="i<=10">
       <td class="left">MBTA</td>
       <td *ngIf="rd.departure_time">{{ rd.departure_time | date: 'hh:mm': '-0500'}}</td>
       <td *ngIf="!rd.departure_time">TBA</td>
@@ -39,7 +39,7 @@
     </tr>
   </thead>
   <tbody *ngFor="let rd of southStationData; let i = index;">
-    <tr *ngIf="i<10">
+    <tr *ngIf="i<=10">
       <td class="left">MBTA</td>
       <td *ngIf="rd.departure_time">{{ rd.departure_time | date: 'hh:mm': '-0500'}}</td>
       <td *ngIf="!rd.departure_time">TBA</td>
